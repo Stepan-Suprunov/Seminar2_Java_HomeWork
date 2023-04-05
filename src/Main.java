@@ -2,6 +2,7 @@
 
 import task.Task1;
 import task.Task2;
+import task.Task2stringBuilder;
 
 import java.io.IOException;
 
@@ -10,5 +11,7 @@ public class Main {
         Task1.bubbleSort();
         System.out.println();
         Task2.splitStrings();
+        System.out.println();
+        Task2stringBuilder.StringBuilder();
     }
 }
